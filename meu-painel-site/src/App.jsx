@@ -9,7 +9,7 @@ import {
 const URL = import.meta.env.VITE_SUPABASE_URL;
 const KEY = import.meta.env.VITE_SUPABASE_ANON_KEY;
 const supabase = URL && KEY ? createClient(URL, KEY) : null;
-const LOGIN_EMAIL = 'vinicius@painel.local';
+const LOGIN_EMAIL = 'ferreira.vd22@gmail.com';
 const today = () => new Date().toISOString().slice(0,10);
 const fmt = (mins) => {
   const sign = mins < 0 ? '-' : '+';
